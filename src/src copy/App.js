@@ -3,8 +3,14 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 
 // Layout
+import InterviewExplorer from "./pages/InterviewExplorer";
 
-import DsaMastery from "./components/DsaMastery";
+// Page Components
+import ReactView from "./pages/ReactView";
+import DSAView from "./pages/DSAView";
+import DesignView from "./pages/DesignView";
+import DsaPatterns from "./components/DsaPatterns";
+import DsaMastery from "./components/DsaMastery.jsx";
 
 function App() {
   return (
